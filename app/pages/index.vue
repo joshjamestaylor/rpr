@@ -126,6 +126,7 @@ async function onSubmit(event: any) {
 
   <!-- Testimonials -->
   <UPageSection
+    id="reviews"
     headline="Customer Reviews"
     title="What Our Customers Say"
     description="Hundreds of satisfied customers across the region trust us with their vehicles."
