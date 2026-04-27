@@ -143,6 +143,23 @@ async function onSubmit(event: any) {
     </UPageGrid>
   </UPageSection>
 
+  <UPageSection
+    title="Beautiful Vue UI components"
+    description="Nuxt UI provides a comprehensive suite of components and utilities to help you build beautiful and accessible web applications with Vue and Nuxt."
+    icon="i-lucide-rocket"
+    orientation="horizontal"
+    reverse
+    :features="features"
+    :links="links"
+  >
+    <img
+      src="https://picsum.photos/600/600"
+      alt="Illustration"
+      class="w-full"
+      loading="lazy"
+    />
+  </UPageSection>
+
   <!-- CTA -->
   <UPageCTA
     title="Ready to Restore Your Vehicle?"
@@ -231,7 +248,13 @@ async function onSubmit(event: any) {
         />
       </UFormField>
 
-      <UButton type="submit" label="Send Enquiry" size="xl" block class="rounded-none" />
+      <UButton
+        type="submit"
+        label="Send Enquiry"
+        size="xl"
+        block
+        class="rounded-none"
+      />
     </UForm>
   </UPageSection>
 </template>
